@@ -130,6 +130,8 @@ while True:
                         else:
                             print(f"El paciente {nombre_paciente} no tiene reserva de turno el martes")
                         break
+                    case _:
+                        print("El valor ingresado no es valido")
                         
         case "3":
             pass
